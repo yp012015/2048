@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>2048小游戏</title>
+		<link rel="stylesheet" type="text/css" href="css/2048.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/browser.js"></script>
+		<script src="js/support2048.js"></script>
+		<script src="js/showanimation2048.js"></script>
+		<script src="js/main2048.js"></script>
+	</head>
+	<body>
+		<table class="div-game-over">
+			<tbody>
+				<tr><td>
+					<a href="javascript:newGame();" id="btn-retry">重&nbsp&nbsp试</a>
+				</td></tr>
+			</tbody>
+		</table>
+		<header>
+			<h1>2048</h1>
+			<a href="javascript:newGame();" id="btn-new-game">New Game</a>
+			<p>score:<span id="score">0	</span></p>
+		</header>
+		<div class="gird-container">
+			<div class="gird-cell" id="gird-cell-0-0"></div>
+			<div class="gird-cell" id="gird-cell-0-1"></div>
+			<div class="gird-cell" id="gird-cell-0-2"></div>
+			<div class="gird-cell" id="gird-cell-0-3"></div>
+			
+			<div class="gird-cell" id="gird-cell-1-0"></div>
+			<div class="gird-cell" id="gird-cell-1-1"></div>
+			<div class="gird-cell" id="gird-cell-1-2"></div>
+			<div class="gird-cell" id="gird-cell-1-3"></div>
+			
+			<div class="gird-cell" id="gird-cell-2-0"></div>
+			<div class="gird-cell" id="gird-cell-2-1"></div>
+			<div class="gird-cell" id="gird-cell-2-2"></div>
+			<div class="gird-cell" id="gird-cell-2-3"></div>
+			
+			<div class="gird-cell" id="gird-cell-3-0"></div>
+			<div class="gird-cell" id="gird-cell-3-1"></div>
+			<div class="gird-cell" id="gird-cell-3-2"></div>
+			<div class="gird-cell" id="gird-cell-3-3"></div>
+		</div>
+	</body>
+</html>
